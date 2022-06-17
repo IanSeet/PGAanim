@@ -1,0 +1,15 @@
+Animations for the paper <Optimisation of reversible pipelined molecular mechanical circuits>
+
+Note: viewing these animations requires that you have VMD installed. In order to view the trajectory files as animations within VMD, download and decompress the folder and navigate to it in the VMD console. Type the command "source anim.tcl" and hit enter. You will be prompted to enter the name of the trajectory you wish to load. Below is a list of the trajectories in this folder and the systems they correspond to in the paper:
+
+pipe1, pipe2, pipe3 - animations of the pipelined circuit containing 2, 3 and 4 NAND gates respectively (1 higher than the number in the name) plus the synchronised driver.
+
+modDriver - animations of the modified driver
+
+pipe1mod, pipe2mod, pipe3mod - animations of the pipelined circuit containing 2, 3 and 4 NAND gates respectively (1 higher than the number in the name) plus the synchronised driver with the modified drivers replacing the originals between the NAND gates.
+
+genDriver - animations of the genetic algorithm augmented driver
+
+pipe1gen, pipe2gen, pipe3gen - animations of the pipelined circuit containing 2, 3 and 4 NAND gates respectively (1 higher than the number in the name) plus the synchronised driver with the modified drivers replacing the originals between the NAND gates.
+
+
